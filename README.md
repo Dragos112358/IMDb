@@ -1,11 +1,5 @@
 Readme
 
-Nume: Boncan Dragoş-Eduard-Gabriel
-Grupa: 325CC
-
-Gradul de dificultate al temei: mediu
-Timpul alocat rezolvării: temă foarte lungă (2 săptămȃni). Dacă nu trebuia făcut şi modul terminal, era o temă foarte bună ca durată.
-
 	Ȋn funcţia IMDB, am ȋnceput cu implementarea Singleton Pattern, care are rolul de a limita numărul maxim al instanţelor clasei IMDB la 1. Ȋn funcţia run, apelez cele 4 funcţii (parseazaAccounts, datedinActors, citire_cereri şi parseazăProducţii() ) pentru a parsa cele 4 fişiere JSON (accounts.json, actors.json, production.json şi requests.json). 
 Folosesc funcţia calculateSimilarity, pentru a determina similaritatea a două stringuri (dacă similaritatea este peste 0.8, voi folosi acel string ȋn căutarea unui actor sau a unei producţii). Folosesc şi funcţiile findUserbyUsername şi findUserbyUserType pentru a găsi un user după un string reprezentȃnd numele său sau tipul său (această funcţie o folosesc mai ales pentru a găsi admini). Funcţia findProductionbyName are rolul de a găsi o producţie după numele său şi returnează un obiect de tip Movie sau Series (ȋn funcţie de caz).
 Funcţia wrapText primeşte ca parametri un String (şirul de prelucrat) şi un int (cȃte caractere pun pe un rȃnd). Aceasta are rolul de a mă ȋncadra ȋn fereastră atunci cȃnd am de-a face cu o descriere/bibliografie mai lungă de 70-80 de caractere. 
